@@ -11,9 +11,54 @@
     />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CSS CLASS II</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      h1 {
+        font-size: 40px;
+        color: firebrick;
+        font-weight: lighter;
+        text-decoration: line-through;
+        font-family: "Quicksand", sans-serif;
+        font-style: italic;
+      }
+      p {
+        font-size: 25px;
+        color: wheat;
+        font-family: "Quicksand", sans-serif;
+      }
+      .Selectors {
+        font-size: 30px;
+        color: green;
+        text-decoration: underline;
+        font-family: "Quicksand", sans-serif;
+        font-weight: lighter;
+      }
+      .Lorem {
+        font-size: 20px;
+        color: black;
+        font-family: "Quicksand", sans-serif;
+      }
+      #id-sel {
+        font-size: 50px;
+        color: navy;
+        text-decoration: overline;
+        font-family: "Quicksand", sans-serif;
+        font-weight: 300;
+      }
+      #inline {
+        font-size: 20px;
+        color: violet;
+        font-family: "Quicksand", sans-serif;
+      }
+    </style>
   </head>
   <body>
-    <h1 style="font-size: 40px; color: firebrick; text-decoration: underline; font-style: italic;">Introduction to CSS</h1>
+    <h1>Introduction to CSS</h1>
     <p>
       CSS is short for Cascading Style sheet, can be define as a styling
       language. It is used to control the visual presentation of webpage. CSS
@@ -28,7 +73,7 @@
     </ol>
 
     <h4>Inline CSS:</h4>
-    <p>
+    <p id="inline">
       Inline CSS involve adding CSS directly within an HTML elements using style
       attributes. This method is typically used when you need to apply a unique
       style to a single elements.
@@ -63,5 +108,20 @@
         <i class="fa-brands fa-facebook">Facebook</i>
       </a>
     </div>
+
+    <p class="Lorem">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, quam in
+      explicabo, veniam earum veritatis iusto quo, dignissimos labore cumque
+      nulla. Quisquam laudantium quod enim sit, voluptatum nisi laboriosam
+      magnam ullam placeat omnis nulla veritatis blanditiis maiores! Harum alias
+      nostrum, doloribus nisi eveniet reprehenderit perspiciatis in doloremque
+      numquam cupiditate saepe ducimus excepturi repudiandae, nulla cumque
+      itaque quam debitis reiciendis sit quas porro ullam libero. Minima dolor
+      sapiente maiores animi odio cupiditate eligendi sunt laborum libero?
+    </p>
+    <!-- CSS Selector: by adding an attribute to the opening tags of your element by giving a unique name (nickname) -->
+    <h1 class="Selectors">CSS Selectors</h1>
+
+    <h1 id="id-sel">ID Selectors</h1>
   </body>
 </html>
