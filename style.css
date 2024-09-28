@@ -1,0 +1,44 @@
+form {
+  width: 500px;
+  height: auto;
+  background-color: rgb(190, 239, 255);
+  border: 1px solid rgb(190, 239, 255);
+  border-radius: 10px;
+  margin: 30px;
+  padding: 30px;
+}
+
+form div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+form div input {
+  width: 300px;
+  border-radius: 5px;
+  border: 0;
+  background-color: rgb(211, 208, 208);
+  padding: 10px;
+  margin-bottom: 5px;
+  outline: 0;
+}
+
+form div button {
+  padding: 5px;
+  color: white;
+  background-color: seagreen;
+  height: 30px;
+  width: 100%;
+  border-radius: 5px;
+  margin-top: 10px;
+  border: 0;
+}
+
+form div button:hover {
+  background-color: rgb(75, 166, 114);
+  text-decoration: underline;
+  color: black;
+  border: 1px solid black;
+  cursor: pointer;
+}
